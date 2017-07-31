@@ -1,0 +1,13 @@
+cd C:\Users\joeyg
+cd Desktop
+mkdir GitHubRepoAssignment
+cd GitHubRepoAssignment
+git init
+touch readme.md
+echo "This is folder, which will store additional content that is pushed from my local machine and then stored inthe github repo." > readme.md
+git status
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/joeygrimm/GitHubRepoAssignment.git
+git push -u origin master
+doskey /HISTORY >GitHubRepoAssignment.txt
